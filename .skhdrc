@@ -1,0 +1,2 @@
+cmd - return : open -na /Applications/Alacritty.app/Contents/MacOS/alacritty
+cmd - m : open -na /Applications/Firefox\ Nightly.app/
