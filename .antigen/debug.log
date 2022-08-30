@@ -9572,3 +9572,882 @@ antigen
 [LOG][1651692259.4376640320] Return from hook antigen-apply with 0
 [LOG][1651692259.4380059242] /Users/mattthompson/antigen.zsh:1518
 [LOG][1651692259.4380059242] Return from hook antigen with 0
+[WRN][1659027383.8204400539] /Users/mattthompson/antigen.zsh:266
+[WRN][1659027383.8204400539] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1659027383.8212571144] /Users/mattthompson/antigen.zsh:1572
+[WRN][1659027383.8212571144] -antigen-lock-init return code was 0
+[LOG][1659027383.8213799000] /Users/mattthompson/antigen.zsh:1574
+[LOG][1659027383.8213799000] LOADED EXTENSION lock EXT
+[WRN][1659027383.8245449066] /Users/mattthompson/antigen.zsh:1684
+[WRN][1659027383.8245449066] Init parallel extension PARALLEL
+[WRN][1659027383.8247189522] /Users/mattthompson/antigen.zsh:266
+[WRN][1659027383.8247189522] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1659027383.8248820305] /Users/mattthompson/antigen.zsh:1572
+[WRN][1659027383.8248820305] -antigen-parallel-init return code was 0
+[LOG][1659027383.8249950409] /Users/mattthompson/antigen.zsh:1574
+[LOG][1659027383.8249950409] LOADED EXTENSION parallel EXT
+[WRN][1659027383.8251030445] /Users/mattthompson/antigen.zsh:1692
+[WRN][1659027383.8251030445] Exec parallel extension PARALLEL
+[WRN][1659027383.8254580498] /Users/mattthompson/antigen.zsh:266
+[WRN][1659027383.8254580498] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1659027383.8256659508] /Users/mattthompson/antigen.zsh:1572
+[WRN][1659027383.8256659508] -antigen-defer-init return code was 0
+[LOG][1659027383.8257689476] /Users/mattthompson/antigen.zsh:1574
+[LOG][1659027383.8257689476] LOADED EXTENSION defer EXT
+[WRN][1659027383.8279919624] /Users/mattthompson/antigen.zsh:266
+[WRN][1659027383.8279919624] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1659027383.8284740448] /Users/mattthompson/antigen.zsh:1572
+[WRN][1659027383.8284740448] -antigen-cache-init return code was 0
+[LOG][1659027383.8286080360] /Users/mattthompson/antigen.zsh:1574
+[LOG][1659027383.8286080360] LOADED EXTENSION cache EXT
+[WRN][1659027383.8321919441] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8321919441] Updated meta: target antigen mode once type pre called 1
+[WRN][1659027383.8323678970] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8323678970] Processing hooks: antigen-lock
+[WRN][1659027383.8324780464] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8324780464] Pre hook: antigen-lock use oh-my-zsh
+[LOG][1659027383.8325889111] /Users/mattthompson/antigen.zsh:1658
+[LOG][1659027383.8325889111] antigen-lock called
+[WRN][1659027383.8327059746] /Users/mattthompson/antigen.zsh:1669
+[WRN][1659027383.8327059746] Creating antigen-lock file at /Users/mattthompson/.antigen/.lock
+[WRN][1659027383.8409130573] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8409130573] -antigen-hook-antigen use oh-my-zsh
+[WRN][1659027383.8442189693] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8442189693] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1659027383.8444380760] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8444380760] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1659027383.8445661068] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8445661068] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8446769714] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8446769714] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1659027383.8448209763] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8448209763] Replace hook: antigen-bundle-defer --loc=lib
+[WRN][1659027383.8449590206] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8449590206] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8451991081] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8451991081] Return from hook antigen with 0
+[WRN][1659027383.8454720974] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8454720974] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8455801010] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8455801010] Processing hooks: antigen-lock
+[WRN][1659027383.8457651138] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8457651138] -antigen-hook-antigen bundle git
+[WRN][1659027383.8462009430] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8462009430] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1659027383.8464210033] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8464210033] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1659027383.8466110229] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8466110229] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8467450142] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8467450142] Pre hook: antigen-bundle-cached git
+[WRN][1659027383.8468980789] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8468980789] Replace hook: antigen-bundle-defer git
+[WRN][1659027383.8470289707] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8470289707] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8471860886] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8471860886] Return from hook antigen with 0
+[WRN][1659027383.8474209309] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8474209309] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8475320339] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8475320339] Processing hooks: antigen-lock
+[WRN][1659027383.8476428986] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8476428986] -antigen-hook-antigen bundle heroku
+[WRN][1659027383.8478629589] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8478629589] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1659027383.8480188847] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8480188847] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1659027383.8481318951] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8481318951] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8482360840] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8482360840] Pre hook: antigen-bundle-cached heroku
+[WRN][1659027383.8484129906] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8484129906] Replace hook: antigen-bundle-defer heroku
+[WRN][1659027383.8485538960] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8485538960] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8488419056] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8488419056] Return from hook antigen with 0
+[WRN][1659027383.8491449356] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8491449356] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8492610455] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8492610455] Processing hooks: antigen-lock
+[WRN][1659027383.8493769169] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8493769169] -antigen-hook-antigen bundle pip
+[WRN][1659027383.8496019840] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8496019840] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1659027383.8497591019] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8497591019] Updated meta: target antigen-bundle mode repeat type pre called 4
+[WRN][1659027383.8498721123] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8498721123] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8499701023] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8499701023] Pre hook: antigen-bundle-cached pip
+[WRN][1659027383.8501060009] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8501060009] Replace hook: antigen-bundle-defer pip
+[WRN][1659027383.8502259254] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8502259254] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8503720760] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8503720760] Return from hook antigen with 0
+[WRN][1659027383.8505759239] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8505759239] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8506820202] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8506820202] Processing hooks: antigen-lock
+[WRN][1659027383.8508009911] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8508009911] -antigen-hook-antigen bundle lein
+[WRN][1659027383.8510129452] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8510129452] Updated meta: target antigen-bundle mode repeat type replace called 5
+[WRN][1659027383.8511540890] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8511540890] Updated meta: target antigen-bundle mode repeat type pre called 5
+[WRN][1659027383.8512790203] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8512790203] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8513739109] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8513739109] Pre hook: antigen-bundle-cached lein
+[WRN][1659027383.8515028954] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8515028954] Replace hook: antigen-bundle-defer lein
+[WRN][1659027383.8516180515] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8516180515] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8517580032] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8517580032] Return from hook antigen with 0
+[WRN][1659027383.8519539833] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8519539833] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8520510197] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8520510197] Processing hooks: antigen-lock
+[WRN][1659027383.8521549702] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8521549702] -antigen-hook-antigen bundle command-not-found
+[WRN][1659027383.8523550034] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8523550034] Updated meta: target antigen-bundle mode repeat type replace called 6
+[WRN][1659027383.8525290489] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8525290489] Updated meta: target antigen-bundle mode repeat type pre called 6
+[WRN][1659027383.8526790142] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8526790142] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8527879715] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8527879715] Pre hook: antigen-bundle-cached command-not-found
+[WRN][1659027383.8529229164] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8529229164] Replace hook: antigen-bundle-defer command-not-found
+[WRN][1659027383.8530399799] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8530399799] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8531980515] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8531980515] Return from hook antigen with 0
+[WRN][1659027383.8534059525] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8534059525] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8535039425] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8535039425] Processing hooks: antigen-lock
+[WRN][1659027383.8536489010] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8536489010] -antigen-hook-antigen bundle zsh-users/zsh-syntax-highlighting
+[WRN][1659027383.8538870811] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8538870811] Updated meta: target antigen-bundle mode repeat type replace called 7
+[WRN][1659027383.8540370464] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8540370464] Updated meta: target antigen-bundle mode repeat type pre called 7
+[WRN][1659027383.8541810513] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8541810513] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8542969227] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8542969227] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1659027383.8544631004] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8544631004] Replace hook: antigen-bundle-defer zsh-users/zsh-syntax-highlighting
+[WRN][1659027383.8546218872] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8546218872] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8547759056] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8547759056] Return from hook antigen with 0
+[WRN][1659027383.8549840450] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8549840450] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8550870419] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8550870419] Processing hooks: antigen-lock
+[WRN][1659027383.8552329540] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8552329540] -antigen-hook-antigen bundle zsh-users/zsh-autosuggestions
+[WRN][1659027383.8554570675] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8554570675] Updated meta: target antigen-bundle mode repeat type replace called 8
+[WRN][1659027383.8556489944] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8556489944] Updated meta: target antigen-bundle mode repeat type pre called 8
+[WRN][1659027383.8557620049] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8557620049] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1659027383.8559110165] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8559110165] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1659027383.8560779095] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8560779095] Replace hook: antigen-bundle-defer zsh-users/zsh-autosuggestions
+[WRN][1659027383.8562018871] /Users/mattthompson/antigen.zsh:1500
+[WRN][1659027383.8562018871] antigen-bundle-defer shortcircuited
+[LOG][1659027383.8563449383] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8563449383] Return from hook antigen with 0
+[WRN][1659027383.8565459251] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8565459251] Ignoring hook due to mode once: antigen-lock
+[WRN][1659027383.8566429615] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8566429615] Processing hooks: antigen-lock
+[WRN][1659027383.8567459583] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8567459583] -antigen-hook-antigen apply
+[WRN][1659027383.8569509983] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8569509983] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1659027383.8570868969] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8570868969] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1659027383.8572189808] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8572189808] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1659027383.8573598862] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8573598862] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1659027383.8574941158] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8574941158] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1659027383.8575990200] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8575990200] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1659027383.8576910496] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8576910496] Pre hook: antigen-apply-parallel
+[WRN][1659027383.8577859402] /Users/mattthompson/antigen.zsh:1744
+[WRN][1659027383.8577859402] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1659027383.8579840660] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8579840660] Pre hook: antigen-apply-defer
+[WRN][1659027383.8580799103] /Users/mattthompson/antigen.zsh:1623
+[WRN][1659027383.8580799103] Defer pre-apply DEFER PRE-APPLY
+[LOG][1659027383.8583779335] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8583779335] Processing deferred bundle: --loc=lib DEFER
+[WRN][1659027383.8585779667] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8585779667] Updated meta: target antigen-bundle mode repeat type pre called 9
+[WRN][1659027383.8587191105] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8587191105] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1659027383.8588469028] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8588469028] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8589429855] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8589429855] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1659027383.8591339588] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8591339588] Replace hook: antigen-bundle-parallel --loc=lib
+[TRA][1659027383.8592560291] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8592560291] antigen-bundle-parallel: --loc=lib PARALLEL
+[TRA][1659027383.8592560291] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8594288826] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8594288826] Replaced hooked function.
+[LOG][1659027383.8595600128] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8595600128] Return from hook antigen-bundle with 0
+[LOG][1659027383.8597109318] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8597109318] Processing deferred bundle: git DEFER
+[WRN][1659027383.8599479198] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8599479198] Updated meta: target antigen-bundle mode repeat type pre called 10
+[WRN][1659027383.8601350784] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8601350784] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1659027383.8602569103] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8602569103] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8603758812] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8603758812] Pre hook: antigen-bundle-cached git
+[WRN][1659027383.8605659008] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8605659008] Replace hook: antigen-bundle-parallel git
+[TRA][1659027383.8606948853] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8606948853] antigen-bundle-parallel: git PARALLEL
+[TRA][1659027383.8606948853] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8608210087] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8608210087] Replaced hooked function.
+[LOG][1659027383.8609220982] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8609220982] Return from hook antigen-bundle with 0
+[LOG][1659027383.8610739708] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8610739708] Processing deferred bundle: heroku DEFER
+[WRN][1659027383.8612670898] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8612670898] Updated meta: target antigen-bundle mode repeat type pre called 11
+[WRN][1659027383.8614110947] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8614110947] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1659027383.8615179062] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8615179062] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8616120815] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8616120815] Pre hook: antigen-bundle-cached heroku
+[WRN][1659027383.8617439270] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8617439270] Replace hook: antigen-bundle-parallel heroku
+[TRA][1659027383.8618409634] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8618409634] antigen-bundle-parallel: heroku PARALLEL
+[TRA][1659027383.8618409634] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8620200157] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8620200157] Replaced hooked function.
+[LOG][1659027383.8621370792] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8621370792] Return from hook antigen-bundle with 0
+[LOG][1659027383.8623180389] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8623180389] Processing deferred bundle: pip DEFER
+[WRN][1659027383.8625569344] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8625569344] Updated meta: target antigen-bundle mode repeat type pre called 12
+[WRN][1659027383.8627090454] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8627090454] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1659027383.8628249168] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8628249168] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8629250526] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8629250526] Pre hook: antigen-bundle-cached pip
+[WRN][1659027383.8630630970] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8630630970] Replace hook: antigen-bundle-parallel pip
+[TRA][1659027383.8631649017] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8631649017] antigen-bundle-parallel: pip PARALLEL
+[TRA][1659027383.8631649017] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8632829189] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8632829189] Replaced hooked function.
+[LOG][1659027383.8633859158] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8633859158] Return from hook antigen-bundle with 0
+[LOG][1659027383.8635079861] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8635079861] Processing deferred bundle: lein DEFER
+[WRN][1659027383.8636889458] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8636889458] Updated meta: target antigen-bundle mode repeat type pre called 13
+[WRN][1659027383.8638370037] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8638370037] Updated meta: target antigen-bundle mode repeat type replace called 5
+[WRN][1659027383.8639419079] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8639419079] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8640689850] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8640689850] Pre hook: antigen-bundle-cached lein
+[WRN][1659027383.8642361164] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8642361164] Replace hook: antigen-bundle-parallel lein
+[TRA][1659027383.8643410206] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8643410206] antigen-bundle-parallel: lein PARALLEL
+[TRA][1659027383.8643410206] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8645029068] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8645029068] Replaced hooked function.
+[LOG][1659027383.8646149635] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8646149635] Return from hook antigen-bundle with 0
+[LOG][1659027383.8647909164] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8647909164] Processing deferred bundle: command-not-found DEFER
+[WRN][1659027383.8650770187] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8650770187] Updated meta: target antigen-bundle mode repeat type pre called 14
+[WRN][1659027383.8652360439] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8652360439] Updated meta: target antigen-bundle mode repeat type replace called 6
+[WRN][1659027383.8653481007] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8653481007] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8654799461] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8654799461] Pre hook: antigen-bundle-cached command-not-found
+[WRN][1659027383.8656809330] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8656809330] Replace hook: antigen-bundle-parallel command-not-found
+[TRA][1659027383.8658170700] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8658170700] antigen-bundle-parallel: command-not-found PARALLEL
+[TRA][1659027383.8658170700] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8659410477] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8659410477] Replaced hooked function.
+[LOG][1659027383.8660449982] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8660449982] Return from hook antigen-bundle with 0
+[LOG][1659027383.8662021160] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8662021160] Processing deferred bundle: zsh-users/zsh-syntax-highlighting DEFER
+[WRN][1659027383.8663969040] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8663969040] Updated meta: target antigen-bundle mode repeat type pre called 15
+[WRN][1659027383.8665370941] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8665370941] Updated meta: target antigen-bundle mode repeat type replace called 7
+[WRN][1659027383.8666551113] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8666551113] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8667540550] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8667540550] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1659027383.8668880463] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8668880463] Replace hook: antigen-bundle-parallel zsh-users/zsh-syntax-highlighting
+[TRA][1659027383.8669910431] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8669910431] antigen-bundle-parallel: zsh-users/zsh-syntax-highlighting PARALLEL
+[TRA][1659027383.8669910431] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8671140671] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8671140671] Replaced hooked function.
+[LOG][1659027383.8672270775] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8672270775] Return from hook antigen-bundle with 0
+[LOG][1659027383.8673579693] /Users/mattthompson/antigen.zsh:1629
+[LOG][1659027383.8673579693] Processing deferred bundle: zsh-users/zsh-autosuggestions DEFER
+[WRN][1659027383.8675858974] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8675858974] Updated meta: target antigen-bundle mode repeat type pre called 16
+[WRN][1659027383.8677508831] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8677508831] Updated meta: target antigen-bundle mode repeat type replace called 8
+[WRN][1659027383.8679089546] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8679089546] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1659027383.8680160046] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8680160046] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1659027383.8681569099] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8681569099] Replace hook: antigen-bundle-parallel zsh-users/zsh-autosuggestions
+[TRA][1659027383.8682711124] /Users/mattthompson/.zshrc:1748
+[TRA][1659027383.8682711124] antigen-bundle-parallel: zsh-users/zsh-autosuggestions PARALLEL
+[TRA][1659027383.8682711124] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8684420586] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8684420586] Replaced hooked function.
+[LOG][1659027383.8685460091] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8685460091] Return from hook antigen-bundle with 0
+[WRN][1659027383.8687069416] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8687069416] Replace hook: antigen-apply-parallel-execute
+[WRN][1659027383.8688089848] /Users/mattthompson/antigen.zsh:1756
+[WRN][1659027383.8688089848] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1659027383.8690519333] /Users/mattthompson/antigen.zsh:1695
+[WRN][1659027383.8690519333] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1659027383.8691608906] /Users/mattthompson/antigen.zsh:1699
+[WRN][1659027383.8691608906] Gonna install in parallel 8 bundles. PARALLEL
+[WRN][1659027383.8692560196] /Users/mattthompson/antigen.zsh:1701
+[WRN][1659027383.8692560196] --loc=lib git heroku pip lein command-not-found zsh-users/zsh-syntax-highlighting zsh-users/zsh-autosuggestions PARALLEL
+[WRN][1659027383.8696451187] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8696451187] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1659027383.8700389862] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8700389862] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1659027383.8704259396] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8704259396] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1659027383.8708090782] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8708090782] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1659027383.8711988926] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8711988926] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1659027383.8715939522] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8715939522] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1659027383.8719940186] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8719940186] Bundle zsh-users/zsh-syntax-highlighting already cloned locally. PARALLEL
+[WRN][1659027383.8723859787] /Users/mattthompson/antigen.zsh:1715
+[WRN][1659027383.8723859787] Bundle zsh-users/zsh-autosuggestions already cloned locally. PARALLEL
+[WRN][1659027383.8726620674] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8726620674] Updated meta: target antigen-bundle mode repeat type pre called 17
+[WRN][1659027383.8727750778] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8727750778] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8728749752] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8728749752] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1659027383.8730070591] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8730070591] -antigen-hook-antigen-bundle --loc=lib
+[TRA][1659027383.8731150627] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8731150627] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1659027383.8731150627] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8741600513] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8741600513] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1659027383.8742890358] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8742890358] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8744299412] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8744299412] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc lib name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1659027383.8745970726] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8745970726] Replaced hooked function.
+[LOG][1659027383.8747038841] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8747038841] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8750910759] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8750910759] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1659027383.8752229214] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8752229214] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8754119873] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8754119873] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh
+[WRN][1659027383.8756361008] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8756361008] Replaced hooked function.
+[LOG][1659027383.8757851124] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8757851124] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8759729862] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8759729862] Return from hook antigen-bundle with 0
+[WRN][1659027383.8761839867] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8761839867] Updated meta: target antigen-bundle mode repeat type pre called 18
+[WRN][1659027383.8762969971] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8762969971] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8763940334] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8763940334] Pre hook: antigen-bundle-cached git
+[WRN][1659027383.8765220642] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8765220642] -antigen-hook-antigen-bundle git
+[TRA][1659027383.8766369820] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8766369820] Called antigen-bundle with git BUNDLE
+[TRA][1659027383.8766369820] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8773350716] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8773350716] Updated meta: target -antigen-load-env mode repeat type replace called 2
+[WRN][1659027383.8774631023] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8774631023] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8776400089] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8776400089] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/git name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1659027383.8778240681] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8778240681] Replaced hooked function.
+[LOG][1659027383.8779289722] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8779289722] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8782720566] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8782720566] Updated meta: target -antigen-load-source mode repeat type replace called 2
+[WRN][1659027383.8784561157] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8784561157] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8786370754] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8786370754] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh
+[WRN][1659027383.8787949085] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8787949085] Replaced hooked function.
+[LOG][1659027383.8789119720] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8789119720] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8791360855] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8791360855] Return from hook antigen-bundle with 0
+[WRN][1659027383.8793609142] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8793609142] Updated meta: target antigen-bundle mode repeat type pre called 19
+[WRN][1659027383.8794739246] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8794739246] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8795700073] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8795700073] Pre hook: antigen-bundle-cached heroku
+[WRN][1659027383.8797490597] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8797490597] -antigen-hook-antigen-bundle heroku
+[TRA][1659027383.8798658848] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8798658848] Called antigen-bundle with heroku BUNDLE
+[TRA][1659027383.8798658848] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8805909157] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8805909157] Updated meta: target -antigen-load-env mode repeat type replace called 3
+[WRN][1659027383.8807120323] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8807120323] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8808450699] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8808450699] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/heroku name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1659027383.8810250759] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8810250759] Replaced hooked function.
+[LOG][1659027383.8811540604] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8811540604] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8814339638] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8814339638] Updated meta: target -antigen-load-source mode repeat type replace called 3
+[WRN][1659027383.8815650940] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8815650940] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8817780018] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8817780018] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku/heroku.plugin.zsh
+[WRN][1659027383.8819189072] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8819189072] Replaced hooked function.
+[LOG][1659027383.8820910454] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8820910454] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8823258877] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8823258877] Return from hook antigen-bundle with 0
+[WRN][1659027383.8825619221] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8825619221] Updated meta: target antigen-bundle mode repeat type pre called 20
+[WRN][1659027383.8826799393] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8826799393] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8828229904] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8828229904] Pre hook: antigen-bundle-cached pip
+[WRN][1659027383.8829820156] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8829820156] -antigen-hook-antigen-bundle pip
+[TRA][1659027383.8830890656] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8830890656] Called antigen-bundle with pip BUNDLE
+[TRA][1659027383.8830890656] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8838799000] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8838799000] Updated meta: target -antigen-load-env mode repeat type replace called 4
+[WRN][1659027383.8840119839] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8840119839] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8841419220] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8841419220] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/pip name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1659027383.8843159676] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8843159676] Replaced hooked function.
+[LOG][1659027383.8844170570] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8844170570] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8846390247] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8846390247] Updated meta: target -antigen-load-source mode repeat type replace called 4
+[WRN][1659027383.8847510815] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8847510815] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8849399090] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8849399090] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh
+[WRN][1659027383.8851709366] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8851709366] Replaced hooked function.
+[LOG][1659027383.8852961063] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8852961063] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8855130672] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8855130672] Return from hook antigen-bundle with 0
+[WRN][1659027383.8857419491] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8857419491] Updated meta: target antigen-bundle mode repeat type pre called 21
+[WRN][1659027383.8858571053] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8858571053] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8859550953] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8859550953] Pre hook: antigen-bundle-cached lein
+[WRN][1659027383.8860828876] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8860828876] -antigen-hook-antigen-bundle lein
+[TRA][1659027383.8861820698] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8861820698] Called antigen-bundle with lein BUNDLE
+[TRA][1659027383.8861820698] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8869159222] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8869159222] Updated meta: target -antigen-load-env mode repeat type replace called 5
+[WRN][1659027383.8870370388] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8870370388] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8871660233] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8871660233] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/lein name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1659027383.8873369694] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8873369694] Replaced hooked function.
+[LOG][1659027383.8874430656] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8874430656] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8877079487] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8877079487] Updated meta: target -antigen-load-source mode repeat type replace called 5
+[WRN][1659027383.8878760338] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8878760338] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8880240917] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8880240917] Replace hook: -antigen-load-source-cached
+[WRN][1659027383.8881518841] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8881518841] Replaced hooked function.
+[LOG][1659027383.8882548809] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8882548809] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8884630203] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8884630203] Return from hook antigen-bundle with 0
+[WRN][1659027383.8887469769] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8887469769] Updated meta: target antigen-bundle mode repeat type pre called 22
+[WRN][1659027383.8888831139] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8888831139] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8890259266] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8890259266] Pre hook: antigen-bundle-cached command-not-found
+[WRN][1659027383.8891780376] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8891780376] -antigen-hook-antigen-bundle command-not-found
+[TRA][1659027383.8892838955] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8892838955] Called antigen-bundle with command-not-found BUNDLE
+[TRA][1659027383.8892838955] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8900930882] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8900930882] Updated meta: target -antigen-load-env mode repeat type replace called 6
+[WRN][1659027383.8902189732] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8902189732] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8903460503] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8903460503] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/command-not-found name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1659027383.8905360699] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8905360699] Replaced hooked function.
+[LOG][1659027383.8906419277] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8906419277] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8908538818] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8908538818] Updated meta: target -antigen-load-source mode repeat type replace called 6
+[WRN][1659027383.8909649849] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8909649849] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8910789490] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8910789490] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found/command-not-found.plugin.zsh
+[WRN][1659027383.8912010193] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8912010193] Replaced hooked function.
+[LOG][1659027383.8913168907] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8913168907] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8914730549] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8914730549] Return from hook antigen-bundle with 0
+[WRN][1659027383.8916780949] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8916780949] Updated meta: target antigen-bundle mode repeat type pre called 23
+[WRN][1659027383.8917880058] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8917880058] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8919000626] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8919000626] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1659027383.8920259476] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8920259476] -antigen-hook-antigen-bundle zsh-users/zsh-syntax-highlighting
+[TRA][1659027383.8921239376] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8921239376] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1659027383.8921239376] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8928329945] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8928329945] Updated meta: target -antigen-load-env mode repeat type replace called 7
+[WRN][1659027383.8929500580] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8929500580] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8930730820] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8930730820] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/zsh-users/zsh-syntax-highlighting btype plugin url https://github.com/zsh-users/zsh-syntax-highlighting.git loc / name zsh-users/zsh-syntax-highlighting make_local_clone true
+[WRN][1659027383.8932418823] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8932418823] Replaced hooked function.
+[LOG][1659027383.8933389187] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8933389187] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8935511112] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8935511112] Updated meta: target -antigen-load-source mode repeat type replace called 7
+[WRN][1659027383.8936591148] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8936591148] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8937680721] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8937680721] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh
+[WRN][1659027383.8938970566] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8938970566] Replaced hooked function.
+[LOG][1659027383.8940019608] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8940019608] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8941578865] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8941578865] Return from hook antigen-bundle with 0
+[WRN][1659027383.8943600655] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8943600655] Updated meta: target antigen-bundle mode repeat type pre called 24
+[WRN][1659027383.8944709301] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8944709301] Processing hooks: antigen-bundle-cached
+[WRN][1659027383.8945701122] /Users/mattthompson/antigen.zsh:1487
+[WRN][1659027383.8945701122] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1659027383.8946979046] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8946979046] -antigen-hook-antigen-bundle zsh-users/zsh-autosuggestions
+[TRA][1659027383.8947980404] /Users/mattthompson/antigen.zsh:1438
+[TRA][1659027383.8947980404] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1659027383.8947980404] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[WRN][1659027383.8954958916] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8954958916] Updated meta: target -antigen-load-env mode repeat type replace called 8
+[WRN][1659027383.8956139088] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8956139088] Processing hooks: -antigen-load-env-cached
+[WRN][1659027383.8957729340] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8957729340] Replace hook: -antigen-load-env-cached dir /Users/mattthompson/.antigen/bundles/zsh-users/zsh-autosuggestions btype plugin url https://github.com/zsh-users/zsh-autosuggestions.git loc / name zsh-users/zsh-autosuggestions make_local_clone true
+[WRN][1659027383.8959441185] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8959441185] Replaced hooked function.
+[LOG][1659027383.8960449696] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8960449696] Return from hook -antigen-load-env with 0
+[WRN][1659027383.8962769508] /Users/mattthompson/antigen.zsh:1469
+[WRN][1659027383.8962769508] Updated meta: target -antigen-load-source mode repeat type replace called 8
+[WRN][1659027383.8963871002] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8963871002] Processing hooks: -antigen-load-source-cached
+[WRN][1659027383.8965160847] /Users/mattthompson/antigen.zsh:1498
+[WRN][1659027383.8965160847] Replace hook: -antigen-load-source-cached /Users/mattthompson/.antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh
+[WRN][1659027383.8966360092] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027383.8966360092] Replaced hooked function.
+[LOG][1659027383.8967380524] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8967380524] Return from hook -antigen-load-source with 0
+[LOG][1659027383.8969130516] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027383.8969130516] Return from hook antigen-bundle with 0
+[WRN][1659027383.8970320225] /Users/mattthompson/antigen.zsh:1739
+[WRN][1659027383.8970320225] Parallel install done PARALLEL
+[WRN][1659027383.8974039555] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8974039555] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1659027383.8975839615] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8975839615] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1659027383.8977460861] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8977460861] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1659027383.8978879452] /Users/mattthompson/antigen.zsh:1462
+[WRN][1659027383.8978879452] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1659027383.8980040550] /Users/mattthompson/antigen.zsh:1484
+[WRN][1659027383.8980040550] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1659027383.8981139660] /Users/mattthompson/antigen.zsh:1505
+[WRN][1659027383.8981139660] -antigen-hook-antigen-apply 
+[LOG][1659027383.8982119560] /Users/mattthompson/antigen.zsh:1438
+[LOG][1659027383.8982119560] Called antigen-apply
+[TRA][1659027383.8983259201] /Users/mattthompson/antigen.zsh:1439
+[TRA][1659027383.8983259201] Gonna create compdump file @ apply COMPDUMP
+[TRA][1659027383.8983259201] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/mattthompson/.zshrc
+[LOG][1659027384.3752338886] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027384.3752338886] Return from hook antigen-apply with 0
+[WRN][1659027384.3755290508] /Users/mattthompson/antigen.zsh:1509
+[WRN][1659027384.3755290508] Replaced hooked function.
+[WRN][1659027384.3756310940] /Users/mattthompson/antigen.zsh:1513
+[WRN][1659027384.3756310940] Post hook: antigen-apply-lock
+[WRN][1659027384.3758039474] /Users/mattthompson/antigen.zsh:1676
+[WRN][1659027384.3758039474] Freeing antigen-lock file at /Users/mattthompson/.antigen/.lock
+[WRN][1659027384.3789489269] /Users/mattthompson/antigen.zsh:1513
+[WRN][1659027384.3789489269] Post hook: antigen-apply-cached
+[LOG][1659027384.3791220188] /Users/mattthompson/antigen.zsh:1893
+[LOG][1659027384.3791220188] TRACE: /Users/mattthompson/antigen.zsh:1514 /Users/mattthompson/antigen.zsh:1441 /Users/mattthompson/antigen.zsh:1447 /Users/mattthompson/antigen.zsh:1506 /Users/mattthompson/antigen.zsh:1441 /Users/mattthompson/.zshrc:45 zsh:0
+[LOG][1659027384.3792839050] /Users/mattthompson/antigen.zsh:1787
+[LOG][1659027384.3792839050] Gonna generate cache for /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku/heroku.plugin.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/lein /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found /Users/mattthompson/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found/command-not-found.plugin.zsh /Users/mattthompson/.antigen/bundles/zsh-users/zsh-syntax-highlighting// /Users/mattthompson/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh /Users/mattthompson/.antigen/bundles/zsh-users/zsh-autosuggestions// /Users/mattthompson/.antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh
+[LOG][1659027384.3906910419] /Users/mattthompson/antigen.zsh:1844
+[LOG][1659027384.3906910419] CHECK_FILES /Users/mattthompson/.zshrc /Users/mattthompson/.zshrc
+[LOG][1659027384.4583289623] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027384.4583289623] Return from hook antigen-apply with 0
+[LOG][1659027384.4585070610] /Users/mattthompson/antigen.zsh:1518
+[LOG][1659027384.4585070610] Return from hook antigen with 0

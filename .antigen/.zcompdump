@@ -1,4 +1,4 @@
-#files: 934	version: 5.8
+#files: 934	version: 5.8.1
 
 _comps=(
 '-' '_precommand'
@@ -216,6 +216,7 @@ _comps=(
 'bug' '_bug'
 'buildhash' '_ispell'
 'builtin' '_builtin'
+'bun' '_bun'
 'bunzip2' '_bzip2'
 'burst' '_mh'
 'bzcat' '_bzip2'

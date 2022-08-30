@@ -53,3 +53,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# bun completions
+[ -s "/Users/mattthompson/.bun/_bun" ] && source "/Users/mattthompson/.bun/_bun"
+
+# bun
+export BUN_INSTALL="/Users/mattthompson/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
